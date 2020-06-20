@@ -1,0 +1,61 @@
+:root {
+	--bg-color: #494f5f;
+	--btn-color: #845bb3;
+	--btn-color-focus: #d0bdf4;
+	--text-color: #e5eaf5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	background-color: var(--text-color);
+	color: var(--text-color);
+}
+
+.container-app {
+	width: 250px;
+	background-color: var(--bg-color);
+}
+
+.title {
+	width: 250px;
+	color: var(--bg-color);
+}
+
+.title h1 {
+	font-size: 1.8rem;
+	font-weight: bolder;
+}
+
+.number {
+	height: 2rem;
+	font-size: 3rem;
+}
+
+.input-name {
+	background-color: var(--btn-color);
+}
+
+.btn {
+	background-color: var(--btn-color);
+	color: var(--text-color);
+	font-size: 1.2rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.btn:hover,
+focus {
+	background-color: var(--btn-color-focus);
+	color: var(--bg-color);
+	transition: all 1.2s;
+}
