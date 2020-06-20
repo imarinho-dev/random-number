@@ -19,7 +19,7 @@ For exemplo: 10
 ## Project challenge:
 
 - Testing the new Bootstrap 5 ALPHA
-- Understanding Vanilla Javascript
+- Understanding Vanilla Javascript ( Math.random() )
 - Manipulating DOM
 
 ## Skills used:
